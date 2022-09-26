@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecodeViagens</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"> <img src="/img/logotipo.gif" width="110px"
+            alt="Logomarca Recode Viagens"></a> <!-- Logomarca Recode Viagens-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <section class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/index.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="true">
+                Agência
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="/destinos.html">Destinos</a></li>
+                <li><a class="dropdown-item" href="/promocoes.html">Promoções</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contato.html">Contato</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </nav>
+
+  </header>
+
+  <div id="section4" class="container-fluid" style="padding:30px 10px;">
+    <center>
+      <h2>Cadastro de Contato Fale Conosco</h2>
+    </center><br>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Nome</label>
+        <input type="nome" class="form-control" id="inputNome4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="inputEndereço" placeholder="Rua, número e bairro">
+      </div>
+      <div class="col-md-6">
+        <label for="inputAddress2" class="form-label">Complemento</label>
+        <input type="text" class="form-control" id="Complemento" placeholder="Casa, apartamento, bloco">
+      </div>
+      <div class="col-md-6">
+        <label for="inputAddress" class="form-label">Telefone</label>
+        <input type="text" class="form-control" id="inputTelefone" placeholder="+00 00 00000000000">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="inputCidade">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Estado</label>
+        <select id="inputState" class="form-select">
+          <option selected>Escolha...</option>
+          <option>AM</option>
+          <option>AC</option>
+          <option>BA</option>
+          <option>BS</option>
+          <option>CE</option>
+          <option>ES</option>
+          <option>GO</option>
+          <option>MC</option>
+          <option>MG</option>
+          <option>MS</option>
+          <option>MT</option>
+          <option>PA</option>
+          <option>PB</option>
+          <option>PE</option>
+          <option>PI</option>
+          <option>RJ</option>
+          <option>RN</option>
+          <option>RO</option>
+          <option>RR</option>
+          <option>SE</option>
+          <option>SP</option>
+          <option>TO</option>
+          <option>Outros</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Cep</label>
+        <input type="text" class="form-control" id="inputCep">
+      </div>
+      <div class="col-md-6">
+        <label for="inputDestino" class="form-label">Destino</label>
+        <input type="text" class="form-control" id="Destino" placeholder="Estado e Cidade de destino">
+      </div>
+      <div class="col-md-6">
+        <label for="inputDestino" class="form-label">CPF</label>
+        <input type="text" class="form-control" id="CPF" placeholder="CPF00000000000">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Enviar
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Cadastrar</button><br>
+        </br>
+      </div>
+    </form>
+    
+    <div>
+      <br>
+      <center>
+        <h6>Precisa de Ajuda? Fale conosco!</h6>
+        <p>Atendimento 24hrs através do Telefone &#9742 &#9990 :(11) 3003-0019</p>
+        <p>Brasil - São Paulo - S.P.</p>
+      </center>
+    </div>
+
+    <!-- Início do footer -->
+    <footer class="bg-secondary bg-font">
+      <div class="container">
+        <div class="row">
+          <div class="col"><br>
+            <h5>Home</h5>
+            <ul>
+              <li>Sobre</li>
+              <li>Noticías</li>
+              <br>
+            </ul>
+          </div>
+          <div class="col"><br>
+            <h5>Agência</h5>
+            <ul>
+              <li>Destinos</li>
+              <li>Promoções</li>
+            </ul>
+          </div>
+          <div class="col"><br>
+            <h5>Recode Viagens</h5>
+            <ul>
+              <li>Fale conosco</li>
+              <li>Contatos</li>
+            </ul>
+          </div>
+          <div class="col"><br>
+            <h5>Redes sociais</h5>
+            <i class="ri-twitter-line"></i>
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-instagram-line"></i>
+          </div>
+          <div class="col"><br>
+            <h5>Formas de Pagamento</h5></strong>
+            <img src="/img/formasDePag.jpg" width="150px" alt="Formas de Pagamento">
+            <br>
+            </br>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+  </div>
+
+</body>
+
+</html>
+
+<!-- Início do footer Recode -->
+
+<footer>
+  <strong>
+    <center>
+      <p>Recode Pro &copy;2022</p><br>
+    </center>
+  </strong>
+</footer>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
